@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group
+    android:checkableBehavior="single"
+    >
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="All Categories"
+        android:icon="@drawable/ic_dashboard">
+    </item>
+
+
+<!--    <item-->
+<!--        android:id="@+id/nav_search"-->
+<!--        android:title="Search"-->
+<!--        android:icon="@drawable/ic_search">-->
+<!--    </item>-->
+    <item
+        android:id="@+id/nav_division"
+        android:title="Division Wise"
+        android:icon="@drawable/ic_all_divisions">
+    </item>
+    <item
+        android:id="@+id/nav_weather"
+        android:title="Weather"
+        android:icon="@drawable/ic_weather">
+    </item>
+    <item
+        android:id="@+id/nav_categories"
+        android:title="Categories"
+        android:icon="@drawable/ic_category">
+    </item>
+
+    <item
+        android:id="@+id/nav_place"
+        android:title="Place"
+        android:icon="@drawable/ic_place">
+    </item>
+
+</group>
+
+    <item android:title="Profile">
+
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="Profile"
+                    android:icon="@drawable/ic_profile">
+                </item>
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Log Out"
+                    android:icon="@drawable/ic_log_out">
+                </item>
+
+
+            </group>
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Categories">
+
+        <menu>
+            <group
+                android:checkableBehavior="single"
+                >
+
+                <item
+                    android:id="@+id/nav_restaurent"
+                    android:title="Top Restaurent"
+                    android:icon="@drawable/ic_restaurant">
+                </item>
+                <item
+                    android:id="@+id/nav_bank"
+                    android:title="Top Banks"
+                    android:icon="@drawable/ic_top_bank">
+                </item>
+                <item
+                    android:id="@+id/nav_hospital"
+                    android:title="Top Hospital"
+                    android:icon="@drawable/ic_top_hospital">
+                </item>
+                <item
+                    android:id="@+id/nav_collageAndUnivarsity"
+                    android:title="Top Collage And Univarsity"
+                    android:icon="@drawable/ic_school">
+                </item>
+                <item
+                    android:id="@+id/nav_shops"
+                    android:title="Top Shops"
+                    android:icon="@drawable/ic_shop">
+                </item>
+
+
+            </group>
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Share">
+
+        <menu>
+            <group
+                android:checkableBehavior="none"
+                >
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/ic_share">
+                </item>
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:title="Rating"
+                    android:icon="@drawable/ic_star_rate">
+                </item>
+
+
+            </group>
+
+        </menu>
+
+
+    </item>
+
+</menu>

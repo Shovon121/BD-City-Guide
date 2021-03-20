@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "617433937840",
+    "firebase_url": "https://city-guide-app-84417-default-rtdb.firebaseio.com",
+    "project_id": "city-guide-app-84417",
+    "storage_bucket": "city-guide-app-84417.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617433937840:android:5bc4446167c25855d70875",
+        "android_client_info": {
+          "package_name": "com.example_bd_city_guide.cityguideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617433937840-3n5vle0t3sb879q3nqnvmhu6k17mecn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example_bd_city_guide.cityguideapp",
+            "certificate_hash": "218f9c5a0958c4d8a61580542d081df25bef2c5a"
+          }
+        },
+        {
+          "client_id": "617433937840-d2g2o7g7vhchgmk10n6dsgacvcv2n3qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwh7I-4IQhcOiQO1vGCP9U74emCFjI9Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617433937840-d2g2o7g7vhchgmk10n6dsgacvcv2n3qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617433937840:android:502be326852001e9d70875",
+        "android_client_info": {
+          "package_name": "com.example_bd_city_guide_app.cityguideapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617433937840-d2g2o7g7vhchgmk10n6dsgacvcv2n3qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwh7I-4IQhcOiQO1vGCP9U74emCFjI9Jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617433937840-d2g2o7g7vhchgmk10n6dsgacvcv2n3qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

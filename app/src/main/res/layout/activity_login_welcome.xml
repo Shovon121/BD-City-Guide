@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+  android:padding="20dp"
+    tools:context=".login_signin.LoginWelcomeActivity">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/ic_rec">
+
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:text="        Grow \nYour Business!"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We will help you to grow your businees using online service"
+        android:layout_gravity="center"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/logIn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Log In"
+            android:onClick="callLoginScreen"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#FFE609"
+            android:transitionName="transition_login"
+
+            >
+
+
+        </Button>
+        <Button
+            android:id="@+id/singUp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="Sign Up"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:onClick="callSignIn"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="#FFE609"
+            android:transitionName="transition_signup"
+            >
+
+        </Button>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How we are work?"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"></TextView>
+
+</LinearLayout>

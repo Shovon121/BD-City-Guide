@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/sliderImage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/sit_back_and_relax">
+
+    </ImageView>
+
+    <TextView
+
+        android:id="@+id/slider_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LETS GET STARTED"
+        android:textSize="26sp"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal">
+
+
+    </TextView>
+    <TextView
+        android:id="@+id/slider_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You can search any place nearby"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:gravity="center_horizontal"
+        android:textColor="@color/black"
+        >
+
+
+    </TextView>
+
+</LinearLayout>
