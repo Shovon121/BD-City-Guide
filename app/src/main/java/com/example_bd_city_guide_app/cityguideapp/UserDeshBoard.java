@@ -65,13 +65,13 @@ public class UserDeshBoard extends AppCompatActivity implements NavigationView.O
         mosViewRecyclerView();
         categoriesRecycler();
         navigationDrawer();
-        addDesboardIV.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), AddDataActivity.class);
-                startActivity(intent);
-            }
-        });
+//        addDesboardIV.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getApplicationContext(), AddDataActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 
     }
